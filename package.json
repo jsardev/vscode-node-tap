@@ -1,5 +1,5 @@
 {
-    "name": "node-tap-runner",
+    "name": "vscode-node-tap",
     "displayName": "Node Tap Runner",
     "description": "Test runner for Tap in Node.js",
     "version": "0.1.0",
@@ -11,12 +11,12 @@
         "Other"
     ],
     "activationEvents": [
-        "onCommand:node-tap-runner.runTest"
+        "onCommand:vscode-node-tap.runTest"
     ],
     "main": "./out/extension",
     "contributes": {
         "keybindings": {
-            "command": "node-tap-runner.runTest",
+            "command": "vscode-node-tap.runTest",
             "key": "f8"
         }
     },

@@ -7,7 +7,7 @@ export function activate(context: vscode.ExtensionContext) {
     const runner = new Runner();
 
     const runTest = vscode.commands.registerCommand(
-        "node-tap-runner.runTest",
+        "vscode-node-tap.runTest",
         () => runner.run()
     );
 

@@ -2,6 +2,10 @@
     "name": "vscode-node-tap",
     "displayName": "Node Tap Runner",
     "description": "Test runner for Tap in Node.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/sarneeh/vscode-node-tap.git"
+    },
     "version": "0.1.0",
     "publisher": "sarneeh",
     "engines": {

@@ -11,16 +11,14 @@
         "Other"
     ],
     "activationEvents": [
-        "onCommand:extension.sayHello"
+        "onCommand:node-tap-runner.runTest"
     ],
     "main": "./out/extension",
     "contributes": {
-        "commands": [
-            {
-                "command": "extension.sayHello",
-                "title": "Hello World"
-            }
-        ]
+        "keybindings": {
+            "command": "node-tap-runner.runTest",
+            "key": "f8"
+        }
     },
     "scripts": {
         "vscode:prepublish": "npm run compile",

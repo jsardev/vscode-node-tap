@@ -76,7 +76,7 @@ export default class Runner {
     }
 
     private getCommand(filePath: string | null): string {
-        return `tap ${filePath}`;
+        return `npx tap ${filePath}`;
     }
 
     private runCommand(command: string) {
